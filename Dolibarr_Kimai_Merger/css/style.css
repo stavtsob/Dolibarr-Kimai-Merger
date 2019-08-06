@@ -1,0 +1,46 @@
+.mainbox
+{
+    background-color: lightgray;
+    padding: 10%;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 50px;
+    border-radius: 50%;
+    transition: 0.8s;
+}
+.mainbox:hover
+{
+    transform: scale(1.1);
+    background-color: white;
+}
+body
+{
+    background-color: lightgray!important;
+    min-height: 1000px;
+}
+button
+{
+    display: inline-block;
+    margin-bottom: 10px!important;
+    width: 40%;
+    min-width: 60px;
+}
+.footer
+{
+    background: white;
+    margin-top: 65px;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+.footer img
+{
+    height: 40px; 
+    width: auto;
+    display: inline-block;
+    margin-right: 50px;
+}
+input
+{
+    font-size: 10px;
+}
