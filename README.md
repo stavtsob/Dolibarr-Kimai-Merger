@@ -1,6 +1,6 @@
 Purpose
 
-The purpose of TimeTracker is to allow employee users to record their work time on a specific task on the Kimai platform, and the time recorded to spend on Dolibarr so that the Dolibarr supervisor can control it.
+The purpose of TimeTracker is to allow employee users to record their work time on a specific task on the Kimai platform, and the time recorded to be logged as Dolibarr timesheet so that the Dolibarr supervisor can control it.
 
 Implementation
 
