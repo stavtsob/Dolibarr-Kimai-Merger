@@ -27,11 +27,13 @@
                 // on page load.
                 if($this->settings['transfer_on_load'])
                 {
-                    
+                    if($this->settings['sync_users'])
+                    {
+                        $this->sync_handler->syncUsers();
+                    }
                     $data['synced_customers'] = $this->sync_handler->syncCustomers();
                     $data['synced_projects'] = $this->sync_handler->syncProjects();
                     $data['synced_tasks'] = $this->sync_handler->syncTasks();
-                    $this->sync_handler->syncUsers();
                     $data['synced_timesheets'] = $this->sync_handler->syncTimesheets();
                     $data['edited_timesheets'] = $this->sync_handler->getEditedTimesheets();
                 }

@@ -11,4 +11,5 @@ $config['kimai_user'] = 'admin';
 $config['kimai_token'] = 'password';
 $config['kimai_uri'] = "kimai.local/api/";
 $config['default_user_password'] = 'password'; #default password for users that get transferred to kimai
+$config['sync_users'] = false;
 ?>

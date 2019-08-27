@@ -23,9 +23,9 @@ if(isset($synced_customers))
     <br>
     <button id="transfer" type="button" class="btn btn-secondary">⏱️ Transfer timesheets to Dolibarr</button>
     <br>
-    <p style="font-size:12px;">You should use this option if timetracker is installed in a new host to re-create the associations between
-    Dolibarr and Kimai. This button will sync Users,Customers,Projects,Tasks but no timesheets.</p>
-    <button id="restore" type="button" class="btn btn-secondary">📚 Restore assocications in database</button>
+    <p style="font-size:12px;">You should use this option if merger is installed in a new host to re-create the associations between
+    Dolibarr and Kimai. This button will sync Customers,Projects,Tasks but no timesheets.</p>
+    <button id="restore" type="button" class="btn btn-secondary">📚 Restore associations in database</button>
     <br>
     <div style="margin-top: 20px;">
         <img id="loading" src="<?php echo base_url('img/loading.gif')?>" style="display: inline-block; height: 50px; width: 50px;" >
